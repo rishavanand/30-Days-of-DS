@@ -1,2 +1,1 @@
-# 30-days-of-ds-part1
-30 days of Data Structures in C++ - Part 1
+# 30 Days of Data Structures - Part 1
