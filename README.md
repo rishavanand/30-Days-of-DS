@@ -16,7 +16,7 @@ Each data structure has its own directory along with a separate README file.
 
 ## Progress
 
-**Day 01** - Data Structures basics
+**Day 00** - Data Structures basics
 
 #### What is a Data Structure?
 The amount of resources (time and space) that a computer has is limited. We can always add more resources to a computer but we also want to maximize our profit. So to get maximum performance out of these limited resources we use different techniques a.k.a **data structures** that organize data in such a way that it can be used effectively.
