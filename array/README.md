@@ -1,4 +1,5 @@
 
+
 # Array
 
 An array is a collection of homogeneous elements stored in contiguous memory locations. Address of the array is the address of the first element a.k.a base address and address of each element is given by:
@@ -36,6 +37,8 @@ Search(arr, n, s)
 			return p
 		else 
 			p = p+1
+		end if
+	end while
 	return -1
 end Search
 ```
@@ -53,6 +56,7 @@ Insert(arr, n, s, v)
 		return true
 	else
 		return false
+	end if
 end Insert
 ```
 ### Delete
@@ -69,6 +73,8 @@ Delete(arr, n, p)
 			arr[p] = arr[p+1]
 			p = p+1
 		return true
+		end while
+	end if
 end Delete
 ```
 ## Complexities
