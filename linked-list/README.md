@@ -31,19 +31,21 @@ A linked list a linear data structure where each element is a separate object an
 
 ### Access
 ```
-Access(head, value)
+Access(head, position)
 	Pre: head is pointer to the first node
-	     value is the value to access
-	Post: pointer to node, if found; null, otherweise
+	     position is the node to access
+	Post: pointer to the node, if found; null, otherwise
 	temp = head
-	while temp != ø
-		if temp -> value = value
-			return true
-		else
-			temp = temp -> next
-		end if
+	counter = 1
+	while counter >= 1 && counter <= position && temp != ø
+		temp = temp->next
+		counter = counter + 1
 	end while
-	return null
+	if counter < 1 || temp = ø
+		return ø
+	else
+		return temp
+	end if
 end Access
 ```
 
