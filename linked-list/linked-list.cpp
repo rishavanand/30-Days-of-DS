@@ -55,11 +55,11 @@ int search(struct Node * temp_head, int value){
 struct Node * access(struct Node * temp_head, int index){
 	int counter;
 	counter = 0;
-	while(counter != index && temp_head != NULL){
+	while(counter >= 0 && counter <= index && temp_head != NULL){
 		temp_head = temp_head->next;
 		counter++;
 	}
-	if(temp_head == NULL)
+	if(temp_head == NULL || counter < 0)
 		return NULL;
 	else
 		return temp_head;
