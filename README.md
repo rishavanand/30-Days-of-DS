@@ -29,6 +29,7 @@ Each data structure has its own directory along with a separate README file.
 |**01**      |Array                                |Algorithm <br> Implementation |
 |**02**      |Linked List                          |Algorithm                     |
 |**03**      |Linked List                          |Implementation                |
+|**04**      |Stack                                |Algorithm                     |
 
 ## Sources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/)
