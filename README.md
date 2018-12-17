@@ -23,6 +23,9 @@ Each data structure has its own directory along with a separate README file.
 - Stack
 	- Push
 	- Pop
+- Queue
+	- Enqueue
+	- Dequeue
 
 ## Progress
 
@@ -34,6 +37,7 @@ Each data structure has its own directory along with a separate README file.
 |**03**      |Linked List                          |Implementation                |
 |**04**      |Stack                                |Algorithm                     |
 |**05**      |Stack                                |Implementation                |
+|**06**      |Queue                                |Algorithm                     |
 
 ## Sources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/)
