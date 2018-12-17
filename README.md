@@ -20,6 +20,9 @@ Each data structure has its own directory along with a separate README file.
 	- Insert (at end)
 	- Delete (of specified value)
 	- Traverse
+- Stack
+	- Push
+	- Pop
 
 ## Progress
 
