@@ -33,11 +33,10 @@ end Push
 Pop(head)
 	Pre: head is pointer to the first node of the reverse-list
 	Post: first element of the reverse-list is removed
-	new = node(value)
 	if head != ø
 		head = head -> next
 	end if
-end Push
+end Pop
 ```
 
 ## Complexities
