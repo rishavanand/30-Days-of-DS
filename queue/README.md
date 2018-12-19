@@ -1,4 +1,4 @@
-# Queque
+# Queue
 A Stack is another linear data structure built on top of an array or a linked list. It follows the FIFO(first in first out) order, meaning the least recently added element is removed first.  it consists of two unique operations:
 
  1. enqueue() - inserts a new element to the end of the queue
