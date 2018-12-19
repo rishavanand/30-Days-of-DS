@@ -39,6 +39,7 @@ Each data structure has its own directory along with a separate README file.
 |**05**      |Stack                                |Implementation                |
 |**06**      |Queue                                |Algorithm                     |
 |**07**      |Queue                                |Implementation                |
+|**08**      |Binary Tree                          |Algorithm                     |
 
 ## Sources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/)
