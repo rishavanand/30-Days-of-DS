@@ -54,9 +54,9 @@ end Dequeue
 
 ### Time complexity
 
-| Enqueue    | Dequeue    |
-| :--------: | :--------: |
-| O(1)       | O(1)       |
+| Access     | Search     | Insertion    | Deletion    |
+| :--------: | :--------: | :----------: | :---------: |
+| O(n)       | O(n)       | O(1)         | O(1)        |
 
 ### Space complexity
 O(n)
