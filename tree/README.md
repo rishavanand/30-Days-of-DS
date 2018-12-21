@@ -62,7 +62,7 @@ Search(root, key)
 		if temp -> left != ø
 			enqueue(temp -> left)
 		if temp -> right != ø
-			enqueu(e		temp -> right)
+			enqueu(etemp -> right)
 	end while
 	return ø
 	
@@ -140,6 +140,89 @@ DeleteDeepest(root, dNode):
 	
 end DeleteDeepest
 ```
+
+## Traversals
+
+### In-order
+
+1. Visit left child
+2. Visit root
+3. Visit right child
+
+```
+  1
+ / \
+2   3
+Result: 213
+```
+
+```
+Inorder(temp)
+	Pre: temp a node of tree (preferably root node)
+	Post: Key of nodes printed in inorder fashion
+	
+	if temp != ø
+		Inorder(temp -> left)
+		display temp -> key
+		Inorder(temp -> left)
+	end if
+	
+end Inorder
+```
+
+### Pre-order
+
+1. Visit root
+2. Visit left child
+3. Visit right child
+
+```
+  1
+ / \
+2   3
+Result: 123
+```
+
+```
+Preorder(temp)
+	Pre: temp a node of tree (preferably root node)
+	Post: Key of nodes printed in pre-order fashion
+	
+	if temp != ø
+		display temp -> key
+		Preorder(temp -> left)
+		Preorder(temp -> left)
+	end if
+	
+end Preorder
+```
+### Post-order
+
+1. Visit left child
+2. Visit right child
+3. Visit root
+
+```
+  1
+ / \
+2   3
+Result: 231
+```
+
+```
+Postorder(temp)
+	Pre: temp a node of tree (preferably root node)
+	Post: Key of nodes printed in post-order fashion
+	
+	if temp != ø
+		Postorder(temp -> left)
+		Postorder(temp -> left)
+		display temp -> key
+	end if
+	
+end Postorder
+```
+
 
 ## Complexities
 

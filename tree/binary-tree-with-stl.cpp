@@ -155,7 +155,7 @@ int deleteNode(struct tNode ** root, int key){
 
 // Inorder Traversal
 void inOrderTraverse(struct tNode * root){
-	if(root){
+	if(root != NULL){
 		inOrderTraverse(root->left);
 		cout << root->key;
 		inOrderTraverse(root->right);
@@ -164,7 +164,7 @@ void inOrderTraverse(struct tNode * root){
 
 // Pre-order Traversal
 void preOrderTraverse(struct tNode * root){
-	if(root){
+	if(root != NULL){
 		cout << root->key;
 		preOrderTraverse(root->left);
 		preOrderTraverse(root->right);
@@ -173,7 +173,7 @@ void preOrderTraverse(struct tNode * root){
 
 // Post-order Traversal
 void postOrderTraverse(struct tNode * root){
-	if(root){
+	if(root != NULL){
 		postOrderTraverse(root->left);
 		postOrderTraverse(root->right);
 		cout << root->key;

@@ -29,6 +29,10 @@ Each data structure has its own directory along with a separate README file.
 - Binary Tree
 	- Insert
 	- Delete
+	- Traversals
+		- In-order
+		- Pre-order
+		- Post-order
 
 ## Progress
 
