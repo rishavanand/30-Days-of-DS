@@ -26,6 +26,9 @@ Each data structure has its own directory along with a separate README file.
 - Queue
 	- Enqueue
 	- Dequeue
+- Binary Tree
+	- Insert
+	- Delete
 
 ## Progress
 
@@ -40,7 +43,7 @@ Each data structure has its own directory along with a separate README file.
 |**06**      |Queue                                |Algorithm                     |
 |**07**      |Queue                                |Implementation                |
 |**08**      |Binary Tree                          |Algorithm                     |
-|**09**      |Binary Tree                          |Implementation (without stl)  |
+|**09**      |Binary Tree                          |Implementation (without STL)  |
 
 ## Sources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/)
