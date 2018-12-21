@@ -44,6 +44,7 @@ Each data structure has its own directory along with a separate README file.
 |**07**      |Queue                                |Implementation                |
 |**08**      |Binary Tree                          |Algorithm                     |
 |**09**      |Binary Tree                          |Implementation (without STL)  |
+|**10**      |Binary Tree & Traversals             |Implementation (with STL)     |
 
 ## Sources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/)
