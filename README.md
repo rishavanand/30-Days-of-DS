@@ -33,6 +33,10 @@ Each data structure has its own directory along with a separate README file.
 		- In-order
 		- Pre-order
 		- Post-order
+	- Binary Search Tree
+		- Insert
+		- Search
+		- Delete
 
 ## Progress
 
@@ -49,6 +53,7 @@ Each data structure has its own directory along with a separate README file.
 |**08**      |Binary Tree                          |Algorithm                     |
 |**09**      |Binary Tree                          |Implementation (without STL)  |
 |**10**      |Binary Tree & Traversals             |Implementation (with STL)     |
+|**11**      |Binary Search Tree                   |Algorithm                     |
 
 ## Sources
  - [GeeksforGeeks](https://www.geeksforgeeks.org/)
