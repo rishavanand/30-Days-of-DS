@@ -18,8 +18,8 @@ A Binary Tree is a non-linear(hierarchichal) data structure. Binary means that e
 ### Insert
 ```
 Insert(root, key)
-	Pre: root is the root of the tree
-	     key is the element to be inserted
+	Pre: root is the top most node of the tree
+	     key is the value to be inserted
 	Post: key inserted in the tree
 
 	new = node(key)
@@ -44,14 +44,14 @@ Insert(root, key)
 		end if
 	end while
 	
-end Enqueue
+end Insert
 ```
 
 ### Search
 ```
 Search(root, key)
-	Pre: root is the root of the tree
-	     key is the element to be inserted
+	Pre: root is the top most node of the tree
+	     key is the value to be searched
 	Post: searched node, if found; ø otherwise
 
 	enqueue(root)
@@ -78,8 +78,8 @@ end Search
 
 ```
 Delete(root, key)
-	Pre: root is the root of the tree
-	     key is the element to be deleted
+	Pre: root is the top most node of the tree
+	     key is the value to be deleted
 	Post: key deleted from the tree
 	
 	if root -> key = key
