@@ -4,7 +4,6 @@ A Binary Search Tree is a non-linear(hierarchichal) data structure. In this vari
 
 ## Why Binary Search Trees?
 1. In average cases the access/search/insertion/deletion operation time reduces to O(log(n)) with respect to O(n) of a Binary Tree.
-2. For more effiecient access/search/insertion/deletion than arrays and linked lists
 
 ## Operations (in linked list)
 
@@ -87,6 +86,7 @@ Delete(root, key)
 			free(root)
 			root = min
 		end if
+		return true
 	else if key < root -> key
 		return Delete(root -> left, key)
 	else if right > root -> key
