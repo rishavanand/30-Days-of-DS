@@ -33,13 +33,13 @@ int insert(struct Node ** root, int key){
 }
 
 // Search for a node
-struct Node * search(struct Node * root, int key){
+int search(struct Node * root, int key){
 	if(root == NULL)
 		// Not found
-		return NULL;
+		return false;
 	else if(root->key == key)
 		// Found
-		return root;
+		return true;
 	else if(key < root->key)
 		// Not found; key less than current node's key
 		return search(root->left, key);
@@ -102,8 +102,6 @@ int main(){
 
 	// Pointer to first node of binary search tree
 	struct Node * root = NULL;
-	// Temporary pointer
-	struct Node * temp = NULL;
 
 	// make request and store sucess code for each 
 	// insert operation
@@ -121,14 +119,14 @@ int main(){
 	cout << '\n';
 
 	// Search
-	temp = search(root, 8);
-	if(temp != NULL)
+	res = search(root, 8);
+	if(res)
 		cout << "FOUND" << '\n';
 	else
 		cout << "NOT FOUND" << '\n';
 
-	temp = search(root, 10);
-	if(temp != NULL)
+	res = search(root, 10);
+	if(res)
 		cout << "FOUND" << '\n';
 	else
 		cout << "NOT FOUND" << '\n';
